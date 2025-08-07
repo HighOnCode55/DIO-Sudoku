@@ -4,20 +4,32 @@
     -fx-alignment: CENTER;
     -fx-pref-height: 50px;
     -fx-pref-width: 50px;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
 }
 
 /* Estilo para as células que são pistas iniciais do jogo */
 .celula-inicial {
     -fx-font-weight: bold;
+    -fx-text-fill: black;
     -fx-background-color: #f0f0f0; /* Um cinza claro para diferenciar */
 }
 
 /* Estilo para uma jogada VÁLIDA do usuário (letra verde) */
-.celula-valida .text {
-    -fx-fill: green;
+.celula-valida {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
 }
 
 /* Estilo para uma jogada INVÁLIDA do usuário (letra vermelha) */
-.celula-invalida .text {
-    -fx-fill: red;
+.celula-invalida {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+/* Estilo para a célula selecionada */
+.celula-selecionada {
+    -fx-background-color: #e6f2ff; /* Azul claro para indicar seleção */
+    -fx-border-color: #0066cc;
+    -fx-border-width: 2px;
 }
