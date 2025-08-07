@@ -11,8 +11,8 @@ exemplo da separação do grid do jogo
 
 # como rodar
 
-clone o repositório e abra um terminal na pasta raiz
-digite /mvn javafx:run para rodar o game
+Clone o repositório e abra um terminal na pasta raiz
+digite ```mvn javafx:run``` para rodar o game
 
 # Por dentro do código
 
